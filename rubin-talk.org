@@ -147,12 +147,12 @@ the observatory sat without a roof for an extra winter," and of course
 there were many components that could not be worked on until the dome
 was closed.
 
-*** What are we doing now?
+*** What are we doing now at the summit?
 
-We are doing commissioning activities now.  We have a small telescope
-and a CCD array that is the same technology as the real thing but only a
-tiny fraction of its size, and we're making sure the small-scale system
-behaves as we expect it to.
+- Finishing construction of the building.
+- Bolting together the different telescope components.
+- Building up the calibration process.
+- Taking our first on-sky data.
 
 ** Data Volume
 
