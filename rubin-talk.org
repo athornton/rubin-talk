@@ -23,7 +23,7 @@ and [[https://www.lsst.org/scientists/keynumbers][LSST Key Numbers]].
 
 Images, except when otherwise noted: Rubin Observatory/NSF/AURA
 
-[[https://athornton.github.io/rubin-talk-late-2021/][This talk].
+[[https://athornton.github.io/rubin-talk-late-2021/][This talk]].
 
 [[./assets/qr.png]]
 
