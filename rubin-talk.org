@@ -9,7 +9,7 @@
 #+EMAIL: athornton@lsst.org
 #+TITLE: A Brief Overview of the Rubin Observatory
 
-* A Brief Overview of the Rubin Observatory
+* A Brief Overview of the Rubin Observatory (2022)
 
 Almost everything I am going to tell you can be found in the [[https://www.lsst.org/sites/default/files/docs/sciencebook/SB_Whole.pdf][Science
 Book]].  It's quite dry and a little out of date, but it is the
@@ -23,7 +23,7 @@ and [[https://www.lsst.org/scientists/keynumbers][LSST Key Numbers]].
 
 Images, except when otherwise noted: Rubin Observatory/NSF/AURA
 
-[[https://athornton.github.io/rubin-talk-late-2021/][This talk]].
+[[https://athornton.github.io/rubin-talk/][This talk]].
 
 [[./assets/qr.png]]
 
@@ -78,11 +78,10 @@ donors.
 It's in the Andes foothills, about an hour from La Serena, Chile (57
 km), on Cerro Pachón.  It is at approximately 2680m elevation.
 
-*** Webcam view of the summit, May 2018
+*** Summit Facilty, May 2022
 
-The building has considerably more roof now.
+[[./assets/Summit-Dusk-2022-05-15.jpg]]
 
-[[./assets/Summit-Dusk-2018-05-18.png]]
 
 *** A couple of cool videos
 
@@ -136,32 +135,51 @@ ten years, weather (and other factors) permitting.
 
 *** When will we do that?
 
-COVID-19 affected our schedule quite a lot.  We expect to begin science
-operations in the first half of 2024.
+COVID-19 (and its knock-on effects) delayed our schedule quite a lot.
+We expect to begin science operations between June and November of 2024.
 
-The schedule slippage was not just days lost because the Chilean
-government had closed the road to the summit, or La Serena was in
-quarantine, or no non-Chilean staff could travel to the country let
-alone the site, but also due to second-order effects such as "and then
-the observatory sat without a roof for an extra winter," and of course
-there were many components that could not be worked on until the dome
-was closed.
+*** Direct COVID-19 delays
+
+ * because the Chilean government had closed the road to the summit
+ * La Serena was in quarantine
+ * no non-Chilean staff could travel to the country let alone the site
+
+*** Indirect COVID-19 delays
+
+ * the observatory sat without a roof for an extra winter
+ * many components couldn't be installed until the dome was closed
+ * even once Chile was open again, differential infection rates and
+   travel restrictions sometimes made coordination of international
+   teams to work on-site impossible
+
+*** And some not-COVID-at-all delays
+
+July 2022 Blizzard
+
+[[./assets/Blizzard.png]]
+
+*** Winter Weather
+
+[[./assets/Blizzard2.png]]
 
 *** What are we doing now at the summit?
 
-- Finishing construction of the building.
-- Bolting together the different telescope components.
+- Finishing construction of the observatory building.
+- Connecting up the different telescope components and performing our
+  integration tasks.
+- Getting a redundant, robust network in place.
 - Building up the calibration process.
-- Taking our first on-sky data.
+- Taking on-sky data with the auxiliary telescope.
 
 ** Data Volume
 
-We will collect 20-ishTB of pipeline-processed data a night.  That's
-equivalent to all the data collected over the Hubble Space Telescope's
-30+-year lifetime /each week/.
+We will collect 20-ishTB of pipeline-processed data a night (including
+calibration data--just images are 15-ishTB).  That's equivalent to all
+the data collected over the Hubble Space Telescope's 30+-year lifetime
+/each week/.
 
 We will take over one trillion photometric measurements of astronomical
-sources.
+objects.
 
 The reduced catalogue (the primary science product) will be on the order
 of 15PB: tens of billions of rows, with complex structure, in a
@@ -205,7 +223,7 @@ substrates.
 
 [[./assets/mirror.gif]]
 
-*** What can it see?
+*** How much can it see?
 
 M1M3 is 8.4m diameter.  That can collect a lot of photons.
 
@@ -247,12 +265,30 @@ sensor rafts).  The first full-focal-plane images have just been made
 (September 2020): [[https://www.space.com/vera-rubin-observatory-record-breaking-first-photos.html][space.com article]],
 [[https://www6.slac.stanford.edu/news/2020-09-08-sensors-world-largest-digital-camera-snap-first-3200-megapixel-images-slac.aspx][Stanford press release]].
 
-374 4K HDTVs to display a complete image.  That'd tile half a basketball
-court.  Remember: about 1000 of those images are produced a night.
+*** How big is 3.2 Gpx?
 
-*** Camera picture
+374 4K HDTVs to display a complete full-resolution image.  Assuming a
+70" TV, that more or less tiles a basketball court in terms of area.
+
+Obviously the aspect ratios don't work like that, but if you imagine the
+average pixel density of a 70" HDTV...you need a screen the size of a
+basketball court to see a full-resolution image.
+
+Remember: about 1000 of those images are produced a night.
+
+*** Focal Plane
+
+More than two feet wide.
+
+[[./assets/FocalPlane.png]]
+
+*** Camera schematic
 
 [[./assets/camera.png]]
+
+*** Camera photos
+
+[[./assets/Camerapics.png]]
 
 *** Active (not adaptive) optics
 
@@ -269,15 +305,16 @@ sight is nowhere near homogeneous.
 
 Total construction cost is about a half-billion (2013) dollars.
 
-Camera: about $165 million.
-
-M1M3: about $25 million.
++ Camera: about $165 million.
++ M1M3: about $25 million.
 
 Operations: about $35 million/year (or a dollar a second).  About
 another half-billion over survey lifetime, factoring in commissioning
 time.
 
-Grand total, one billion dollars in round numbers.
+Grand total, one billion dollars in round numbers.  Actually a bit more
+more, since there's been considerable inflation since 2013, and the
+schedule has taken longer than anticipated.
 
 ** What science will we do with the Rubin Observatory?
 
@@ -287,7 +324,7 @@ There are four major pillars of the LSST research program:
 + Milky Way structure and stellar content.  We should observe about 10
   billion stars, mostly within the Milky Way.
 + Transient phenomena at optical wavelengths.  AGNs, SN1Ae, visual
-  confirmation of LIGO detections...
+  confirmation of LIGO (and other kilonova) detections...
 + Dark Energy and Dark Matter.  Only 4% of the mass/energy budget of the
   universe is baryonic matter and EM radiation.  What's the rest of it?
 
@@ -322,10 +359,10 @@ There are four major pillars of the LSST research program:
 + Quieter star-death events than SN1Ae: intermediate-mass collapse
   without remnant ("macronovae"), core-collapse straight to black hole,
   mergers of exotic objects.
-+ This is the perfect instrument for optical followup of LIGO events.
-  LIGO says "it's over there somewhere"; even without doing a special
-  pointing, we have a picture of "over there" (assuming Southern
-  Hemisphere) every three days.
++ This is the perfect instrument for optical followup of kilonova
+  events.  LIGO says "it's over there somewhere"; even without
+  doing a special pointing, we have a picture of "over there"
+  (assuming Southern Hemisphere) every three days.
 
 *** Dark Matter and Dark Energy
 
@@ -353,9 +390,9 @@ We should detect 10 to 40 million AGNs (quasars) over the survey
 lifetime.
 
 300,000 supernovae per year.  Current rate, across all instruments, is
-7000 a year.  One supernova goes off in a Milky Way-sized galaxy every
-few dozen years.  One explodes in the observable universe once every
-ten seconds.
+about 7000 a year.  One supernova goes off in a Milky Way-sized galaxy
+every few dozen years.  One explodes in the observable universe once
+every ten seconds.
 
 About 10 billion galaxies, and about 10 billion stars.  So everyone can
 have one of each, with plenty to spare.
@@ -373,8 +410,7 @@ the stretching of spacetime, but you get the idea.
   practice, anyone with such an affiliation.)
 + All astronomers affiliated with institutions that have data rights
   obtained through in-kind contributions (labor, software, et cetera).
-+ Their collaborators, so pretty much all professional astronomers who
-  have friends; thus, everyone except a few theorists.
++ Their collaborators.
 + But two years after initial publication to data rights holders,
   /everyone/.  (Up to four years after collection: it takes one year for
   processing, so if data is collected early 2026, it won't be published
@@ -383,26 +419,26 @@ the stretching of spacetime, but you get the idea.
 
 ** Data availability
 
-There are three categories of "data products" that will come out of the
-survey.  Effectively, they are alerts, catalogues, and user generated
-products.
+There are three kinds of Data Products that will come out of the
+survey: images, catalogues, and alerts.  These fall into three data
+Product categories: Prompt, Data Release, and User-Generated.
 
 *** Prompt Products
 
-Prompt products are alerts: something has changed significantly
-relative to its historical brightness or position.  We have to issue
-these within 60 seconds of the shutter closing, and they can be consumed
-by anyone with data rights.  We've kept this simple: anything that is
-present, and wasn't before, or isn't, and was before, with a certainty
-of 5σ (that is, p-value of 1 in 3.5 million), done with an
-image-subtraction algorithm.
+Prompt products are alerts (plus bundled catalogue and image data):
+something has changed significantly relative to its historical
+brightness or position.  We have to issue these within 60 seconds of the
+shutter closing, and they can be consumed by anyone with data rights.
+We've kept this simple: anything that is present, and wasn't before, or
+isn't, and was before, with a certainty of 5σ (that is, p-value of 1 in
+3.5 million), done with an image-subtraction algorithm.
 
 *** Prompt product volume
 
 It's an enormous firehose: on the order of 10 million alerts a night.
 (So, statistically, three of those will just be very unlucky noise, not
-real events!)  There will therefore be selective brokers
-(community-written, not Rubin Observatory-supplied) that filter the
+real events!)  There will therefore be community-supplied brokers (seven
+have been selected, plus two more downstream of those) that filter the
 Rubin-provided stream with further processing to determine what class of
 event an alert is, and pass selected alerts downstream.  Those will /not/
 have sub-minute latency.
@@ -416,7 +452,9 @@ published, this too is immediately available to people with data rights,
 and two years later for the public.
 
 Alerts and Data Releases are, of course, mostly automated, and the
-source code for their production will be publicly available.
+source code for their production will be publicly available.  (As is the
+source code for everything we do except a few proprietary telescope
+components.)
 
 *** User Generated Products
 
@@ -436,9 +474,22 @@ aims.
 ** What's my role in all this?
 
 I work in the Science Quality and Reliability Engineering (SQuaRE) team,
-within the Data Management organization of the Rubin Observatory.  My
-particular focus is the interactive notebook aspect of the Science
-Platform.
+within the Data Management organization of the Rubin Observatory.
+
+My particular focus has mostly been the interactive notebook aspect of
+the Science Platform.  That was envisioned for quick
+hypothesis-investigation for scientists, but it's now spread into the
+dome, where it's being used for instrument control, among other things.
+I am now working on the third iteration of the service that supplies
+users with the notebook platform.
+
+Most of 2022, though, I have been working on monitoring and telemetry
+for the Science Platform framework.  This is derived from the
+Engineering Facilities Database we built for the components in the dome;
+we can leverage this work to keep track of the health and performance of
+internal components of our Science Platform.
+
+*** How did I get here?
 
 I have worked in IT as a system administrator, software developer,
 consultant, software engineer, and many other roles, for more than 30
