@@ -9,7 +9,7 @@
 #+EMAIL: athornton@lsst.org
 #+TITLE: A Brief Overview of the Rubin Observatory
 
-* A Brief Overview of the Rubin Observatory
+* A Brief Overview of the Rubin Observatory (2021-2022)
 
 Almost everything I am going to tell you can be found in the [[https://www.lsst.org/sites/default/files/docs/sciencebook/SB_Whole.pdf][Science
 Book]].  It's quite dry and a little out of date, but it is the
@@ -139,20 +139,28 @@ ten years, weather (and other factors) permitting.
 COVID-19 affected our schedule quite a lot.  We expect to begin science
 operations in the first half of 2024.
 
-The schedule slippage was not just days lost because the Chilean
-government had closed the road to the summit, or La Serena was in
-quarantine, or no non-Chilean staff could travel to the country let
-alone the site, but also due to second-order effects such as "and then
-the observatory sat without a roof for an extra winter," and of course
-there were many components that could not be worked on until the dome
-was closed.
+*** Direct COVID-19 delays
+
+ * because the Chilean government had closed the road to the summit
+ * La Serena was in quarantine
+ * no non-Chilean staff could travel to the country let alone the site
+
+*** Indirect COVID-19 delays
+
+ * the observatory sat without a roof for an extra winter
+ * many components couldn't be installed until the dome was closed
+ * even once Chile was open again, differential infection rates and
+   travel restrictions sometimes made coordination of international
+   teams to work on-site impossible
 
 *** What are we doing now at the summit?
 
-- Finishing construction of the building.
-- Bolting together the different telescope components.
+- Finishing construction of the observatory building.
+- Connecting up the different telescope components and discovering where
+  integration is lacking.
+- Uncovering redundancy/network design flaws.
 - Building up the calibration process.
-- Taking our first on-sky data.
+- Taking on-sky data with the auxiliary telescope.
 
 ** Data Volume
 
@@ -247,8 +255,16 @@ sensor rafts).  The first full-focal-plane images have just been made
 (September 2020): [[https://www.space.com/vera-rubin-observatory-record-breaking-first-photos.html][space.com article]],
 [[https://www6.slac.stanford.edu/news/2020-09-08-sensors-world-largest-digital-camera-snap-first-3200-megapixel-images-slac.aspx][Stanford press release]].
 
-374 4K HDTVs to display a complete image.  That'd tile half a basketball
-court.  Remember: about 1000 of those images are produced a night.
+*** How big is 3.2 Gpx?
+
+374 4K HDTVs to display a complete full-resolution image.  Assuming a
+70" TV, that more or less tiles a basketball court in terms of area.
+
+Obviously the aspect ratios don't work like that, but if you imagine the
+average pixel density of a 70" HDTV...you need a screen the size of a
+basketball court to see a full-resolution image.
+
+Remember: about 1000 of those images are produced a night.
 
 *** Camera picture
 
@@ -278,6 +294,10 @@ another half-billion over survey lifetime, factoring in commissioning
 time.
 
 Grand total, one billion dollars in round numbers.
+
+(Actually more than that, now, because we kept paying people to work on
+things while the schedule slipped due to COVID-19 delays.  Some of that
+work will accelerate the schedule later, but not all of it.)
 
 ** What science will we do with the Rubin Observatory?
 
@@ -436,9 +456,20 @@ aims.
 ** What's my role in all this?
 
 I work in the Science Quality and Reliability Engineering (SQuaRE) team,
-within the Data Management organization of the Rubin Observatory.  My
-particular focus is the interactive notebook aspect of the Science
-Platform.
+within the Data Management organization of the Rubin Observatory.
+
+My particular focus has mostly been the interactive notebook aspect of
+the Science Platform.  That was envisioned for quick
+hypothesis-investigation for scientists, but it's now spread into the
+dome, where it's being used for instrument control, among other things.
+
+Now I am starting to work on monitoring and telemetry for the Science
+Platform framework.  This is derived from the Engineering Facilities
+Database we built for the components in the dome; we can leverage this work
+to keep track of the health and performance of internal components of
+our Science Platform.
+
+*** How did I get here?
 
 I have worked in IT as a system administrator, software developer,
 consultant, software engineer, and many other roles, for more than 30
