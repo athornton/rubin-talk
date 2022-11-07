@@ -9,7 +9,7 @@
 #+EMAIL: athornton@lsst.org
 #+TITLE: A Brief Overview of the Rubin Observatory
 
-* A Brief Overview of the Rubin Observatory (2021-2022)
+* A Brief Overview of the Rubin Observatory (2022)
 
 Almost everything I am going to tell you can be found in the [[https://www.lsst.org/sites/default/files/docs/sciencebook/SB_Whole.pdf][Science
 Book]].  It's quite dry and a little out of date, but it is the
@@ -23,7 +23,7 @@ and [[https://www.lsst.org/scientists/keynumbers][LSST Key Numbers]].
 
 Images, except when otherwise noted: Rubin Observatory/NSF/AURA
 
-[[https://athornton.github.io/rubin-talk-late-2021/][This talk]].
+[[https://athornton.github.io/rubin-talk/][This talk]].
 
 [[./assets/qr.png]]
 
@@ -78,11 +78,10 @@ donors.
 It's in the Andes foothills, about an hour from La Serena, Chile (57
 km), on Cerro Pachón.  It is at approximately 2680m elevation.
 
-*** Webcam view of the summit, May 2018
+*** Summit Facilty, May 2022
 
-The building has considerably more roof now.
+[[./assets/Summit-Dusk-2022-05-15.jpg]]
 
-[[./assets/Summit-Dusk-2018-05-18.png]]
 
 *** A couple of cool videos
 
@@ -137,7 +136,7 @@ ten years, weather (and other factors) permitting.
 *** When will we do that?
 
 COVID-19 affected our schedule quite a lot.  We expect to begin science
-operations in the first half of 2024.
+operations in the second half of 2024.
 
 *** Direct COVID-19 delays
 
@@ -293,11 +292,11 @@ Operations: about $35 million/year (or a dollar a second).  About
 another half-billion over survey lifetime, factoring in commissioning
 time.
 
-Grand total, one billion dollars in round numbers.
-
-(Actually more than that, now, because we kept paying people to work on
-things while the schedule slipped due to COVID-19 delays.  Some of that
-work will accelerate the schedule later, but not all of it.)
+Grand total, one billion dollars in round numbers.  Actually rather
+more, since there's been considerable inflation since 2013, and also
+because we kept paying people to work on things while the schedule
+slipped due to COVID-19 delays.  Some of that work will accelerate the
+schedule later, but not all of it.
 
 ** What science will we do with the Rubin Observatory?
 
@@ -373,9 +372,9 @@ We should detect 10 to 40 million AGNs (quasars) over the survey
 lifetime.
 
 300,000 supernovae per year.  Current rate, across all instruments, is
-7000 a year.  One supernova goes off in a Milky Way-sized galaxy every
-few dozen years.  One explodes in the observable universe once every
-ten seconds.
+about 7000 a year.  One supernova goes off in a Milky Way-sized galaxy
+every few dozen years.  One explodes in the observable universe once
+every ten seconds.
 
 About 10 billion galaxies, and about 10 billion stars.  So everyone can
 have one of each, with plenty to spare.
@@ -462,12 +461,14 @@ My particular focus has mostly been the interactive notebook aspect of
 the Science Platform.  That was envisioned for quick
 hypothesis-investigation for scientists, but it's now spread into the
 dome, where it's being used for instrument control, among other things.
+I am now working on the third iteration of the service that supplies
+users with the notebook platform.
 
-Now I am starting to work on monitoring and telemetry for the Science
-Platform framework.  This is derived from the Engineering Facilities
-Database we built for the components in the dome; we can leverage this work
-to keep track of the health and performance of internal components of
-our Science Platform.
+Most of 2022, though, I have been working on monitoring and telemetry
+for the Science Platform framework.  This is derived from the
+Engineering Facilities Database we built for the components in the dome;
+we can leverage this work to keep track of the health and performance of
+internal components of our Science Platform.
 
 *** How did I get here?
 
