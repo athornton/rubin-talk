@@ -261,9 +261,8 @@ Currently the largest (in pixel count) digital camera ever made.  Made
 at SLAC.  About the physical size of a minivan.
 
 3.2 Gpx, in 189 sensors, divided into 21 rafts (plus four wavefront
-sensor rafts).  The first full-focal-plane images have just been made
-(September 2020): [[https://www.space.com/vera-rubin-observatory-record-breaking-first-photos.html][space.com article]],
-[[https://www6.slac.stanford.edu/news/2020-09-08-sensors-world-largest-digital-camera-snap-first-3200-megapixel-images-slac.aspx][Stanford press release]].
+sensor rafts).  The first full-focal-plane images were made in
+September 2020: [[https://www.space.com/vera-rubin-observatory-record-breaking-first-photos.html][space.com article]], [[https://www6.slac.stanford.edu/news/2020-09-08-sensors-world-largest-digital-camera-snap-first-3200-megapixel-images-slac.aspx][Stanford press release]].
 
 *** How big is 3.2 Gpx?
 
