@@ -135,8 +135,8 @@ ten years, weather (and other factors) permitting.
 
 *** When will we do that?
 
-COVID-19 affected our schedule quite a lot.  We expect to begin science
-operations in the second half of 2024.
+COVID-19 (and its knock-on effects) delayed our schedule quite a lot.
+We expect to begin science operations between June and November of 2024.
 
 *** Direct COVID-19 delays
 
@@ -152,23 +152,34 @@ operations in the second half of 2024.
    travel restrictions sometimes made coordination of international
    teams to work on-site impossible
 
+*** And some not-COVID-at-all delays
+
+July 2022 Blizzard
+
+[[./assets/Blizzard.png]]
+
+*** Winter Weather
+
+[[./assets/Blizzard2.png]]
+
 *** What are we doing now at the summit?
 
 - Finishing construction of the observatory building.
-- Connecting up the different telescope components and discovering where
-  integration is lacking.
-- Uncovering redundancy/network design flaws.
+- Connecting up the different telescope components and performing our
+  integration tasks.
+- Getting a redundant, robust network in place.
 - Building up the calibration process.
 - Taking on-sky data with the auxiliary telescope.
 
 ** Data Volume
 
-We will collect 20-ishTB of pipeline-processed data a night.  That's
-equivalent to all the data collected over the Hubble Space Telescope's
-30+-year lifetime /each week/.
+We will collect 20-ishTB of pipeline-processed data a night (including
+calibration data--just images are 15-ishTB).  That's equivalent to all
+the data collected over the Hubble Space Telescope's 30+-year lifetime
+/each week/.
 
 We will take over one trillion photometric measurements of astronomical
-sources.
+objects.
 
 The reduced catalogue (the primary science product) will be on the order
 of 15PB: tens of billions of rows, with complex structure, in a
@@ -212,7 +223,7 @@ substrates.
 
 [[./assets/mirror.gif]]
 
-*** What can it see?
+*** How much can it see?
 
 M1M3 is 8.4m diameter.  That can collect a lot of photons.
 
@@ -250,9 +261,8 @@ Currently the largest (in pixel count) digital camera ever made.  Made
 at SLAC.  About the physical size of a minivan.
 
 3.2 Gpx, in 189 sensors, divided into 21 rafts (plus four wavefront
-sensor rafts).  The first full-focal-plane images have just been made
-(September 2020): [[https://www.space.com/vera-rubin-observatory-record-breaking-first-photos.html][space.com article]],
-[[https://www6.slac.stanford.edu/news/2020-09-08-sensors-world-largest-digital-camera-snap-first-3200-megapixel-images-slac.aspx][Stanford press release]].
+sensor rafts).  The first full-focal-plane images were made in
+September 2020: [[https://www.space.com/vera-rubin-observatory-record-breaking-first-photos.html][space.com article]], [[https://www6.slac.stanford.edu/news/2020-09-08-sensors-world-largest-digital-camera-snap-first-3200-megapixel-images-slac.aspx][Stanford press release]].
 
 *** How big is 3.2 Gpx?
 
@@ -265,9 +275,19 @@ basketball court to see a full-resolution image.
 
 Remember: about 1000 of those images are produced a night.
 
-*** Camera picture
+*** Focal Plane
+
+More than two feet wide.
+
+[[./assets/FocalPlane.png]]
+
+*** Camera schematic
 
 [[./assets/camera.png]]
+
+*** Camera photos
+
+[[./assets/Camerapics.png]]
 
 *** Active (not adaptive) optics
 
@@ -284,19 +304,16 @@ sight is nowhere near homogeneous.
 
 Total construction cost is about a half-billion (2013) dollars.
 
-Camera: about $165 million.
-
-M1M3: about $25 million.
++ Camera: about $165 million.
++ M1M3: about $25 million.
 
 Operations: about $35 million/year (or a dollar a second).  About
 another half-billion over survey lifetime, factoring in commissioning
 time.
 
-Grand total, one billion dollars in round numbers.  Actually rather
-more, since there's been considerable inflation since 2013, and also
-because we kept paying people to work on things while the schedule
-slipped due to COVID-19 delays.  Some of that work will accelerate the
-schedule later, but not all of it.
+Grand total, one billion dollars in round numbers.  Actually a bit more
+more, since there's been considerable inflation since 2013, and the
+schedule has taken longer than anticipated.
 
 ** What science will we do with the Rubin Observatory?
 
@@ -306,7 +323,7 @@ There are four major pillars of the LSST research program:
 + Milky Way structure and stellar content.  We should observe about 10
   billion stars, mostly within the Milky Way.
 + Transient phenomena at optical wavelengths.  AGNs, SN1Ae, visual
-  confirmation of LIGO detections...
+  confirmation of LIGO (and other kilonova) detections...
 + Dark Energy and Dark Matter.  Only 4% of the mass/energy budget of the
   universe is baryonic matter and EM radiation.  What's the rest of it?
 
@@ -341,10 +358,10 @@ There are four major pillars of the LSST research program:
 + Quieter star-death events than SN1Ae: intermediate-mass collapse
   without remnant ("macronovae"), core-collapse straight to black hole,
   mergers of exotic objects.
-+ This is the perfect instrument for optical followup of LIGO events.
-  LIGO says "it's over there somewhere"; even without doing a special
-  pointing, we have a picture of "over there" (assuming Southern
-  Hemisphere) every three days.
++ This is the perfect instrument for optical followup of kilonova
+  events.  LIGO says "it's over there somewhere"; even without
+  doing a special pointing, we have a picture of "over there"
+  (assuming Southern Hemisphere) every three days.
 
 *** Dark Matter and Dark Energy
 
@@ -392,8 +409,7 @@ the stretching of spacetime, but you get the idea.
   practice, anyone with such an affiliation.)
 + All astronomers affiliated with institutions that have data rights
   obtained through in-kind contributions (labor, software, et cetera).
-+ Their collaborators, so pretty much all professional astronomers who
-  have friends; thus, everyone except a few theorists.
++ Their collaborators.
 + But two years after initial publication to data rights holders,
   /everyone/.  (Up to four years after collection: it takes one year for
   processing, so if data is collected early 2026, it won't be published
@@ -402,26 +418,26 @@ the stretching of spacetime, but you get the idea.
 
 ** Data availability
 
-There are three categories of "data products" that will come out of the
-survey.  Effectively, they are alerts, catalogues, and user generated
-products.
+There are three kinds of Data Products that will come out of the
+survey: images, catalogues, and alerts.  These fall into three data
+Product categories: Prompt, Data Release, and User-Generated.
 
 *** Prompt Products
 
-Prompt products are alerts: something has changed significantly
-relative to its historical brightness or position.  We have to issue
-these within 60 seconds of the shutter closing, and they can be consumed
-by anyone with data rights.  We've kept this simple: anything that is
-present, and wasn't before, or isn't, and was before, with a certainty
-of 5σ (that is, p-value of 1 in 3.5 million), done with an
-image-subtraction algorithm.
+Prompt products are alerts (plus bundled catalogue and image data):
+something has changed significantly relative to its historical
+brightness or position.  We have to issue these within 60 seconds of the
+shutter closing, and they can be consumed by anyone with data rights.
+We've kept this simple: anything that is present, and wasn't before, or
+isn't, and was before, with a certainty of 5σ (that is, p-value of 1 in
+3.5 million), done with an image-subtraction algorithm.
 
 *** Prompt product volume
 
 It's an enormous firehose: on the order of 10 million alerts a night.
 (So, statistically, three of those will just be very unlucky noise, not
-real events!)  There will therefore be selective brokers
-(community-written, not Rubin Observatory-supplied) that filter the
+real events!)  There will therefore be community-supplied brokers (seven
+have been selected, plus two more downstream of those) that filter the
 Rubin-provided stream with further processing to determine what class of
 event an alert is, and pass selected alerts downstream.  Those will /not/
 have sub-minute latency.
@@ -435,7 +451,9 @@ published, this too is immediately available to people with data rights,
 and two years later for the public.
 
 Alerts and Data Releases are, of course, mostly automated, and the
-source code for their production will be publicly available.
+source code for their production will be publicly available.  (As is the
+source code for everything we do except a few proprietary telescope
+components.)
 
 *** User Generated Products
 
