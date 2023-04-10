@@ -398,7 +398,7 @@ There are four major pillars of the LSST research program:
   direction than in another, we can infer the existence of a lens, and
   therefore mass, between us and them.
 + The improvements in the distance ladder from lensing and SN1ae can let
-  us constrain the Hubble ~~Constant~~ Parameter's value (and its
+  us constrain the Hubble +Constant+ Parameter's value (and its
   evolution over time,   which is presumed to be a linear function of
   proper distance) more   precisely.  That will let us rule out some
   dark energy theories.
