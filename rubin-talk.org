@@ -9,7 +9,7 @@
 #+EMAIL: athornton@lsst.org
 #+TITLE: A Brief Overview of the Rubin Observatory
 
-* A Brief Overview of the Rubin Observatory (2022)
+* A Brief Overview of the Rubin Observatory (2023)
 
 Almost everything I am going to tell you can be found in the [[https://www.lsst.org/sites/default/files/docs/sciencebook/SB_Whole.pdf][Science
 Book]].  It's quite dry and a little out of date, but it is the
@@ -75,8 +75,16 @@ donors.
 
 ** Where is it?
 
-It's in the Andes foothills, about an hour from La Serena, Chile (57
-km), on Cerro Pachón.  It is at approximately 2680m elevation.
+It's in the Andes foothills, about an hour and a half from La Serena,
+Chile (57 km), on Cerro Pachón.  It is at approximately 2680m
+elevation.
+
+*** The Picture Everyone Takes
+
+[[./assets/overused_image.jpg]]
+
+(Picture by Wil O' Mullane, probably)
+
 
 *** Summit Facilty, May 2022
 
@@ -136,7 +144,7 @@ ten years, weather (and other factors) permitting.
 *** When will we do that?
 
 COVID-19 (and its knock-on effects) delayed our schedule quite a lot.
-We expect to begin science operations between June and November of 2024.
+We expect to begin science operations in late 2024.
 
 *** Direct COVID-19 delays
 
@@ -161,6 +169,8 @@ July 2022 Blizzard
 *** Winter Weather
 
 [[./assets/Blizzard2.png]]
+
+That's the weather station on the left.  It still hasn't been rebuilt.
 
 *** What are we doing now at the summit?
 
@@ -219,6 +229,12 @@ largest monolithic piece of glass ever constructed and seems likely to
 remain so given that newer telescope designs mostly use ceramic
 substrates.
 
+*** It's really big
+
+[[./assets/colin.jpg]]
+
+(Picture by Adam Thornton)
+
 *** Photon path
 
 [[./assets/mirror.gif]]
@@ -228,8 +244,8 @@ substrates.
 M1M3 is 8.4m diameter.  That can collect a lot of photons.
 
 Huge field of view: 3.5°.  (JWST is 3.2' or so.)  Seven full moons
-side-by-side or a CD at arm's length.  If you calculate that out, each
-pixel is about 0.6".
+side-by-side, or Orion's belt, or a DVD at arm's length.  If you
+calculate that out, each pixel is about 0.6".
 
 Single-visit depth is magnitude 24.7.  Stacked depth (to 5σ detection)
 over the survey is magnitude 27.5: 30/400 million times fainter than
@@ -299,6 +315,12 @@ We cannot use adaptive optics (much higher frequency, order of 100Hz) to
 compensate for atmospheric distortion as many narrow-field telescopes
 do, because our field of view is large and the air within the cone of
 sight is nowhere near homogeneous.
+
+*** Actuators in the mirror cell
+
+[[./assets/cell.jpg]]
+
+(Picture by Adam Thornton)
 
 ** Observatory Cost
 
@@ -376,10 +398,11 @@ There are four major pillars of the LSST research program:
   direction than in another, we can infer the existence of a lens, and
   therefore mass, between us and them.
 + The improvements in the distance ladder from lensing and SN1ae can let
-  us constrain the Hubble Constant's value (and its evolution over time,
-  which is presumed to be a linear function of proper distance) more
-  precisely.  That will let us rule out some dark energy theories.
-+ And of course if the Hubble Constant is /not/ (statistically) constant
+  us constrain the Hubble ~~Constant~~ Parameter's value (and its
+  evolution over time,   which is presumed to be a linear function of
+  proper distance) more   precisely.  That will let us rule out some
+  dark energy theories.
++ And of course if the Hubble Parameter is /not/ (statistically) constant
   across the sky at a given proper distance, that's a Nobel for
   /someone/.
 
@@ -480,13 +503,14 @@ the Science Platform.  That was envisioned for quick
 hypothesis-investigation for scientists, but it's now spread into the
 dome, where it's being used for instrument control, among other things.
 I am now working on the third iteration of the service that supplies
-users with the notebook platform.
+users with the notebook platform.  That's on our development environment
+now and should move into production within a few weeks.
 
-Most of 2022, though, I have been working on monitoring and telemetry
-for the Science Platform framework.  This is derived from the
-Engineering Facilities Database we built for the components in the dome;
-we can leverage this work to keep track of the health and performance of
-internal components of our Science Platform.
+I also have been working on monitoring and telemetry for the Science
+Platform framework.  This is derived from the Engineering Facilities
+Database we built for the components in the dome; we can leverage this
+work to keep track of the health and performance of internal components
+of our Science Platform, too.
 
 *** How did I get here?
 
