@@ -144,7 +144,7 @@ ten years, weather (and other factors) permitting.
 *** When will we do that?
 
 COVID-19 (and its knock-on effects) delayed our schedule quite a lot.
-We expect to begin science operations in late 2024.
+We expect to begin science operations in 2025.
 
 *** Direct COVID-19 delays
 
@@ -170,16 +170,21 @@ July 2022 Blizzard
 
 [[./assets/Blizzard2.png]]
 
-That's the weather station on the left.  It still hasn't been rebuilt.
+That's the weather station on the left.
+
+*** Plus regular project delays
+
+For example, the camera cooling system was not performing as it should
+have, and needed significant rework.
 
 *** What are we doing now at the summit?
 
-- Finishing construction of the observatory building.
 - Connecting up the different telescope components and performing our
   integration tasks.
 - Getting a redundant, robust network in place.
 - Building up the calibration process.
 - Taking on-sky data with the auxiliary telescope.
+- Soon: installing camera and M1M3 into the telescope.
 
 ** Data Volume
 
