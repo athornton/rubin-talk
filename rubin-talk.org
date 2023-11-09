@@ -507,9 +507,6 @@ My particular focus has mostly been the interactive notebook aspect of
 the Science Platform.  That was envisioned for quick
 hypothesis-investigation for scientists, but it's now spread into the
 dome, where it's being used for instrument control, among other things.
-I am now working on the third iteration of the service that supplies
-users with the notebook platform.  That's on our development environment
-now and should move into production within a few weeks.
 
 I also have been working on monitoring and telemetry for the Science
 Platform framework.  This is derived from the Engineering Facilities
