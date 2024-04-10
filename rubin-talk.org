@@ -9,7 +9,7 @@
 #+EMAIL: athornton@lsst.org
 #+TITLE: A Brief Overview of the Rubin Observatory
 
-* A Brief Overview of the Rubin Observatory (2023)
+* A Brief Overview of the Rubin Observatory (2024)
 
 Almost everything I am going to tell you can be found in the [[https://www.lsst.org/sites/default/files/docs/sciencebook/SB_Whole.pdf][Science
 Book]].  It's quite dry and a little out of date, but it is the
@@ -86,16 +86,15 @@ elevation.
 (Picture by Wil O' Mullane, probably)
 
 
-*** Summit Facilty, May 2022
+*** Summit Facilty, Feb. 2024
 
-[[./assets/Summit-Dusk-2022-05-15.jpg]]
+[[./assets/Summit-Sunset-2024-02-21.jpg]]
 
+*** Observatory and moon, March 2024
 
-*** A couple of cool videos
+[[./assets/Summit-Moon-2024-03-24.png]]
 
-Top-end assembly installation: https://youtu.be/NOaS8jzkTMI
-
-Timelapse of construction: https://youtu.be/41_VUIPwWAk
+(Taken from 25km away, with a really long lens; on the Instagram feed)
 
 *** Why there?
 
@@ -170,7 +169,8 @@ July 2022 Blizzard
 
 [[./assets/Blizzard2.png]]
 
-That's the weather station on the left.
+That's the weather station on the left.  Bad weather when your weather
+station falls over.
 
 *** Plus regular project delays
 
@@ -234,7 +234,13 @@ largest monolithic piece of glass ever constructed and seems likely to
 remain so given that newer telescope designs mostly use ceramic
 substrates.
 
-*** It's really big
+*** M1M3 is in the building now
+
+[[./assets/M1M3home.png]]
+
+(still from a video on the gallery)
+
+*** The telescope is really big
 
 [[./assets/colin.jpg]]
 
@@ -404,12 +410,12 @@ There are four major pillars of the LSST research program:
   therefore mass, between us and them.
 + The improvements in the distance ladder from lensing and SN1ae can let
   us constrain the Hubble +Constant+ Parameter's value (and its
-  evolution over time,   which is presumed to be a linear function of
-  proper distance) more   precisely.  That will let us rule out some
-  dark energy theories.
-+ And of course if the Hubble Parameter is /not/ (statistically) constant
-  across the sky at a given proper distance, that's a Nobel for
-  /someone/.
+  evolution over time, which +is presumed to be a linear function of+
+  +proper distance+ DESI has just (April 2024) possibly made more
+  complicated) more precisely.  That will let us rule out some dark
+  energy theories.
++ Time's one thing.  If the Hubble Parameter is /not/ (statistically)
+  constant in all directions at a given proper distance...
 
 *** A few mind-blowing numbers
 
@@ -507,9 +513,6 @@ My particular focus has mostly been the interactive notebook aspect of
 the Science Platform.  That was envisioned for quick
 hypothesis-investigation for scientists, but it's now spread into the
 dome, where it's being used for instrument control, among other things.
-I am now working on the third iteration of the service that supplies
-users with the notebook platform.  That's on our development environment
-now and should move into production within a few weeks.
 
 I also have been working on monitoring and telemetry for the Science
 Platform framework.  This is derived from the Engineering Facilities
