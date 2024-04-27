@@ -1,5 +1,5 @@
 #+OPTIONS: toc:nil num:nil
-#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.9.2
+#+REVEAL_ROOT: REVEAL_ROOT: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2
 #+REVEAL_HLEVEL: 2
 #+REVEAL_THEME: white
 #+REVEAL_EXTRA_CSS: ./local.css
