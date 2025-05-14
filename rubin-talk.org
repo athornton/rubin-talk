@@ -223,14 +223,19 @@ repointing.
 *** Telescope optical design
 
 This requires a very compact telescope.  It is a three-mirror design,
-where M1 and M3 are part of the same piece of glass.  This is the
-largest monolithic piece of glass ever constructed and seems likely to
-remain so given that newer telescope designs mostly use ceramic
-substrates.
-
-*** Photon path
+where M1 and M3 are part of the same piece of glass.
 
 [[./assets/mirror.gif]]
+
+*** Mirror Construction
+
+The primary mirror is the largest monolithic piece of glass ever
+constructed and seems likely to remain so given that newer telescope
+designs mostly use ceramic substrates instead of glass.
+
+M1M3 was built at the Richard F. Caris Mirror Lab under the UA stadium.
+
+M2 was built by Corning in New York.
 
 *** M1M3 has been silvered
 
