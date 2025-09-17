@@ -1,10 +1,14 @@
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 #+OPTIONS: toc:nil num:nil
-#+REVEAL_ROOT: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2
 #+REVEAL_HLEVEL: 2
 #+REVEAL_THEME: white
-#+REVEAL_EXTRA_CSS: ./local.css
-#+REVEAL_INIT_OPTIONS: slideNumber: h/v
-#+REVEAL_PLUGINS: (highlight)
+#+REVEAL_EXTRA_CSS: ./css/local.css
+#+REVEAL_INIT_OPTIONS: slideNumber: "h/v"
+#+LATEX_COMPILER: lualatex
+#+LATEX_CLASS_OPTIONS: [10pt]
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \setsansfont{Verdana}
+#+LATEX_HEADER: \setmainfont{Verdana}
 #+AUTHOR: Adam Thornton
 #+EMAIL: athornton@lsst.org
 #+TITLE: A Brief Overview of the Rubin Observatory
@@ -23,7 +27,7 @@ and [[https://www.lsst.org/scientists/keynumbers][LSST Key Numbers]].
 
 Images, except when otherwise noted: Rubin Observatory/NSF/AURA
 
-[[https://athornton.github.io/rubin-talk/][This talk]].
+[[https://athornton.github.io/rubin-talk/][This talk]] ([[./rubin-talk.pdf][PDF]]).
 
 [[./assets/qr.png]]
 
