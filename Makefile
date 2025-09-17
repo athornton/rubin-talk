@@ -28,7 +28,7 @@ site: pdf html
 	@mkdir -p ./site/css
 	cp rubin-talk.html ./site/index.html
 	cp rubin-talk.pdf ./site/rubin-talk.pdf
-	cp -rp css ./site/css
+	cp -rp css ./site
 	cp -rp assets ./site
 
 clean:
